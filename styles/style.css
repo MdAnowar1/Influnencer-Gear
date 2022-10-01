@@ -54,7 +54,9 @@ Start First Secion
     border-radius: 15px;
     color: #ffff;
 }
-
+/* ----------------------------
+Start logo Secion 
+---------------------------- */
 .logo-section{
     padding-left: 165px;
     padding-right: 165px;
@@ -65,4 +67,63 @@ Start First Secion
 }
 .per-logo{
     margin: 20px;
+}
+/* ----------------------------
+Start Card Secion 
+---------------------------- */
+.card-section{
+    padding-left: 150px;
+    padding-top: 160px;
+}
+.total-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.h2-tag h2{
+    font-size: 35px;
+    color: #3A3A3A;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.per-card{
+    border-radius: 7px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+}
+.text-size{
+    padding-left: 14px;
+    padding-right: 15px;
+    padding-top: 17px;
+}
+.text-size h3{
+    font-size: 28px;
+    padding-bottom: 6px;
+}
+.text-size h5{
+    font-size: 24px;
+}
+.text-size p{
+    padding-bottom: 10px;
+}
+.flex-star{
+    display: flex;
+    align-items: center;
+}
+.flex-star span{
+    padding-left: 15px;
+    font-size: 18px;
+}
+.fa-star.field{
+    color: orange;
+}
+.fa-star.empty{
+    color: grey;
+}
+.button-two{
+    margin-top: 20px;
+    
+}
+.button-two a{
+    text-decoration: none;
+    color: #E02C6D;
 }
