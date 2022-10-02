@@ -127,3 +127,31 @@ Start Card Secion
     text-decoration: none;
     color: #E02C6D;
 }
+/* ----------------------------
+Last Secion 
+---------------------------- */
+.last-section{
+    padding-left: 150px;
+    padding-right: 80px;
+    margin-top: 108px;
+    margin-bottom: 110px;
+}
+.last-image{
+    display: flex;
+}
+.single-image{
+    padding-right: 130px;
+}
+.last-heading h1{
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #3A3A3A;
+}
+.button-two2{
+margin-top: 15px;
+}
+.button-two2 a{
+    text-decoration: none;
+    color: #ffff;
+    background-color: #E02C6D;
+}
