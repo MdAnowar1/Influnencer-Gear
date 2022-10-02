@@ -120,6 +120,7 @@ Start Card Secion
 }
 .button-two{
     margin-top: 20px;
+    text-align: end;
     
 }
 .button-two a{
@@ -157,12 +158,14 @@ margin-top: 15px;
 /* ----------------------------
 Footer Secion 
 ---------------------------- */
-footer{
+.footer-tag{
     background-color: black;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .h3-footer{
-    padding-top: 60px;
+    padding-top: 30px;
 }
 .h3-footer h3{
     color: #ffff;
@@ -176,8 +179,51 @@ footer{
     display: flex;
     color: #ffff;
     justify-content: center;
-    
 }
 .footer-icons i{
     margin: 15px;
+}
+/* ----------------------------
+Responsive System 
+---------------------------- */
+@media only screen and (max-width:1200px)  {
+    .top-header{
+        grid-template-columns: 1fr;
+        height: fit-content;
+        width: 100%;
+    }
+    .header-section{
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    .logo-section{
+        grid-template-columns: 1fr;
+    }
+    .card-section{
+        grid-template-columns: 1fr;
+    }
+    .start-card{
+        grid-template-columns: 1fr;
+    }
+    .total-card{
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .per-card{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        width: 100%;
+    }
+    .last-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .last-heading{
+        display: block;
+    }
+    .footer-tag{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
 }
