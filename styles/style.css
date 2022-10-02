@@ -4,13 +4,12 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    width: 1200px;
 }
 /* ----------------------------
 Start Main Part Design 
 ---------------------------- */
 .main-part{
-
+    width: 1200px;
 }
 /* ----------------------------
 Start Header Design 
@@ -154,4 +153,31 @@ margin-top: 15px;
     text-decoration: none;
     color: #ffff;
     background-color: #E02C6D;
+}
+/* ----------------------------
+Footer Secion 
+---------------------------- */
+footer{
+    background-color: black;
+    text-align: center;
+}
+.h3-footer{
+    padding-top: 60px;
+}
+.h3-footer h3{
+    color: #ffff;
+    font-size: 24px;
+}
+.h3-footer small{
+    color: #ffff;
+    font-size: 14px;
+}
+.footer-icons{
+    display: flex;
+    color: #ffff;
+    justify-content: center;
+    
+}
+.footer-icons i{
+    margin: 15px;
 }
